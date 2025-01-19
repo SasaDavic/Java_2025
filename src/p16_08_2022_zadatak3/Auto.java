@@ -102,7 +102,7 @@ public class Auto {
 		if (this.kapacitetRezervoara >= this.trenutnoGorivaURezervoaru + kolikoLitra) {
 			double a = kolikoLitra * 170;
 			System.out.println("Natocili ste " + kolikoLitra + "l, to je " + a + "din.");
-			return a;
+			  return a;
 		} else {
 			double b = this.kapacitetRezervoara - this.trenutnoGorivaURezervoaru;
 			double c = b * 170;
