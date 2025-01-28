@@ -3,12 +3,13 @@ package p25_08_2022_zadatak2;
 public class Reakcija {
 	
 	public Reakcija(String tip, String korisnikReagovao) {
-		super();
 		this.tip = tip;
 		this.korisnikReagovao = korisnikReagovao;
 	}
+	
 	private String tip; //smajli, like, srce
 	private String korisnikReagovao;
+	
 	public String getTip() {
 		return tip;
 	}
